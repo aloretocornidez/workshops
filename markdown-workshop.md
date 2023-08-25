@@ -81,14 +81,17 @@ Linux is not an operating system unto itself, but rather another free component 
 
 ## Quoting Code 
 This is argueably one of my favorite features of markdown in programmin contexts.
-You can quote code using the backtick \` on your keyboard. This lets you quote `git` commands in a sentence. You can even do multi line code blocks:
+You can quote code using the backtick \` on your keyboard. This lets you quote `git add .` (\`git\`) commands in a sentence. You can even do multi line code blocks:
 
 ```
 git add .
 git commit -m 'moar code'
 git push -u origin main
 ```
-**You can even specify the language that you're using!!!**
+
+
+What's the best part?
+**You can even specify the language that you're using to get syntax highlighting!!!**
 ```c 
 while(true)
 {
