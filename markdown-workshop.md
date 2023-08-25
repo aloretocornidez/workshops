@@ -29,6 +29,8 @@ Markdown is a way to create readable text files that can be parsed by platforms 
 
 
 # Markdown Features
+Let's discuss a few of the features that are possible with markdown.
+
 
 ## Lists
 - Item 1 
