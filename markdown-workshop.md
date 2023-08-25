@@ -104,8 +104,14 @@ while(true)
 }
 ```
 
-
-
+````
+```c 
+while(true)
+{
+    printf("i use arch btw");
+}
+```
+````
 
 ## Lists and Nested Lists.
 - Item 1
