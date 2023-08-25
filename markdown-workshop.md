@@ -160,15 +160,6 @@ Where
 
 $$ s \in \mathbb{C}$$
 
-Or matrices:
-
-$$\begin{bmatrix}
-a && b && c \\
-1 && 2 && c \\
-x && y && z 
-
-\end{bmatrix}
-$$
 
 ```
 $$ \mathbb{F}(s) = \int_{-\infty}^{\infty}{e^{-st} dt} $$
@@ -176,13 +167,6 @@ $$ \mathbb{F}(s) = \int_{-\infty}^{\infty}{e^{-st} dt} $$
 Where
 
 $$ s \in \mathbb{C}$$
-
-or matrices: 
-
-$$\begin{bmatrix}
-a && b && c \\
-1 && 2 && c \\
-x && y && z 
 ```
 
 
