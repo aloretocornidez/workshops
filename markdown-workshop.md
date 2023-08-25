@@ -89,6 +89,8 @@ git commit -m 'moar code'
 git push -u origin main
 ```
 ````
+
+Do it like this:
 ``` 
 git add .
 git commit -m 'moar code'
@@ -103,7 +105,7 @@ while(true)
     printf("i use arch btw");
 }
 ```
-
+Do it like this:
 ````
 ```c 
 while(true)
@@ -136,7 +138,7 @@ while(true)
     - Sub-Item 2 
 ```
 
-
+$$$ x = \int_0^\infty{e^-{j \omega t} dt} $$$
 
 
 
