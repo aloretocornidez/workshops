@@ -36,17 +36,24 @@ Let's discuss a few of the features that are possible with markdown.
 - Item 1
     - Sub-Item 1 
     - Sub-Item 2 
-    - Sub-Item 3 
 - Item 2 
     - Sub-Item 1 
     - Sub-Item 2 
-    - Sub-Item 3 
 - Item 3
     - Sub-Item 1 
     - Sub-Item 2 
-    - Sub-Item 3 
 
-
+```md 
+- Item 1
+    - Sub-Item 1 
+    - Sub-Item 2 
+- Item 2 
+    - Sub-Item 1 
+    - Sub-Item 2 
+- Item 3
+    - Sub-Item 1 
+    - Sub-Item 2 
+```
 
 
 
