@@ -31,6 +31,22 @@ Markdown is a way to create readable text files that can be parsed by platforms 
 # Markdown Features
 Let's discuss a few of the features that are possible with markdown.
 
+## Headings and Sub-Headings
+I've been using headings for this entire workshop, it let's you divide topics and subtopics.
+
+### Animals
+There are many animals species.
+#### Dogs 
+Dogs are pretty cool. I like dogs.
+#### Cats
+I also like cats quite a bit!
+##### Orange Cats
+Orange cats have interesting features and should be considered a species of their own.
+
+
+
+
+
 
 ## Lists and Nested Lists.
 - Item 1
