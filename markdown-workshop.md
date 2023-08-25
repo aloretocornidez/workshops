@@ -121,8 +121,8 @@ You can do ordered and unordered lists, with checkmarks as well!
 1. Item 1
     - Sub-Item 1
         - [x] Task 1
-        - [] Task 2 
-        - [] Task 3
+        - [ ] Task 2 
+        - [ ] Task 3
     - Sub-Item 2 
 2. Item 2 
     - Sub-Item 1 
@@ -135,8 +135,8 @@ You can do ordered and unordered lists, with checkmarks as well!
 1. Item 1
     - Sub-Item 1 
         - [x] Task 1
-        - [] Task 2 
-        - [] Task 3
+        - [ ] Task 2 
+        - [ ] Task 3
     - Sub-Item 2 
 2. Item 2 
     - Sub-Item 1 
