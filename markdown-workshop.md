@@ -153,9 +153,12 @@ You can do ordered and unordered lists, with checkmarks as well!
 ## Math Equations!
 These are my favorite feature you can use with markdown. It lets me type my notes in class pretty easily, though it may annoy all of my classmates :P (sorry!)
 
-$$ x = \int_0^\infty{e^-{j \omega t} dt} $$
 
+$$ \mathbb{F}(s) = \int_{-\infty}^{\infty}{e^-{st} dt} $$
 
+Where
+
+$$ s \in \mathbb{C}$$
 
 
 ## Activity
