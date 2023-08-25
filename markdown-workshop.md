@@ -180,8 +180,6 @@ $$ s \in \mathbb{C}$$
 - And [links!](https://www.youtube.com/watch?v=dQw4w9WgXcQ)
 - You can even redirect people to other files in the repository, like today's [workshop activity](./activity.md)
 
-## Activity
-Let's have some fun! 
 
 
 
