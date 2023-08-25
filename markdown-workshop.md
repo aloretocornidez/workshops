@@ -32,10 +32,19 @@ Markdown is a way to create readable text files that can be parsed by platforms 
 Let's discuss a few of the features that are possible with markdown.
 
 
-## Lists
-- Item 1 
+## Lists and Nested Lists.
+- Item 1
+    - Sub-Item 1 
+    - Sub-Item 2 
+    - Sub-Item 3 
 - Item 2 
+    - Sub-Item 1 
+    - Sub-Item 2 
+    - Sub-Item 3 
 - Item 3
+    - Sub-Item 1 
+    - Sub-Item 2 
+    - Sub-Item 3 
 
 
 
