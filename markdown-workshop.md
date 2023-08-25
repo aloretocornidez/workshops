@@ -33,8 +33,10 @@ Let's discuss a few of the features that are possible with markdown.
 
 ## Text Formatting
 You can do simple formatting quite easily:
-*Italics*, **Bold**, ***Italic AND Bold***, __Underline__,~~Strikethough~~ 
-
+*Italics*, **Bold**, ***Italic AND Bold***, __Underline__, ~~Strikethough~~ 
+```md 
+*Italics*, **Bold**, ***Italic AND Bold***, __Underline__, ~~Strikethough~~ 
+```
 
 
 ## Headings and Sub-Headings
