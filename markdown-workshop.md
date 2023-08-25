@@ -115,28 +115,42 @@ while(true)
 ```
 ````
 
-## Lists and Nested Lists.
-- Item 1
+## Lists.
+You can do ordered and unordered lists, with checkmarks as well!
+
+1. Item 1
+    - Sub-Item 1
+        -[x] Task 1
+        -[] Task 2 
+        -[] Task 3
+    - Sub-Item 2 
+2. Item 2 
     - Sub-Item 1 
     - Sub-Item 2 
-- Item 2 
-    - Sub-Item 1 
-    - Sub-Item 2 
-- Item 3
+3. Item 3
     - Sub-Item 1 
     - Sub-Item 2 
 
 ```md 
-- Item 1
+1. Item 1
+    - Sub-Item 1 
+        -[x] Task 1
+        -[] Task 2 
+        -[] Task 3
+    - Sub-Item 2 
+2. Item 2 
     - Sub-Item 1 
     - Sub-Item 2 
-- Item 2 
-    - Sub-Item 1 
-    - Sub-Item 2 
-- Item 3
+3. Item 3
     - Sub-Item 1 
     - Sub-Item 2 
 ```
+### 
+
+
+
+
+
 
 $$$ x = \int_0^\infty{e^-{j \omega t} dt} $$$
 
