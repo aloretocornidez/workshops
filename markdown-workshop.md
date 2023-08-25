@@ -67,7 +67,8 @@ Orange cats have interesting features and should be considered a species of thei
 
 
 ## Quoting Text
-> What you guys are referring to as Linux, is in fact, GNU/Linux, or as I've recently taken to calling it, GNU plus Linux. Linux is not an operating system unto itself, but rather another free component of a fully functioning GNU system made useful by the GNU corelibs, shell utilities and vital system components comprising a full OS as defined by POSIX... 
+> What you guys are referring to as Linux, is in fact, GNU/Linux, or as I've recently taken to calling it, GNU plus Linux.
+Linux is not an operating system unto itself, but rather another free component of a fully functioning GNU system made useful by the GNU corelibs, shell utilities and vital system components comprising a full OS as defined by POSIX... 
 > 
 > \- pearjuice, August 13, 2013
 
@@ -77,6 +78,24 @@ Orange cats have interesting features and should be considered a species of thei
 > 
 > \- pearjuice, August 13, 2013
 ```
+
+## Quoting Code 
+This is argueably one of my favorite features of markdown in programmin contexts.
+You can quote code using the backtick `\``on your keyboard. This let's you quote `git` commands in a sentence. You can even do multi line code blocks:
+
+```
+git add .
+git commit -m 'moar code'
+git push -u origin main
+```
+**You can even specify the language that you're using!!!**
+```c 
+while(true)
+{
+    printf("i use arch btw");
+}
+```
+
 
 
 
