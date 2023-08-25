@@ -28,8 +28,22 @@ Markdown is a way to create readable text files that can be parsed by platforms 
     - Obsidian
 
 
+# Markdown Features
+
+## Lists
+- Item 1 
+- Item 2 
+- Item 3
+
+
+
+
+
+
+
+
 ## Activity
-./activity.md
+Let's have some fun! 
 
 
 
