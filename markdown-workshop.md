@@ -89,11 +89,11 @@ git commit -m 'moar code'
 git push -u origin main
 ```
 ```
-\```
+```
 git add .
 git commit -m 'moar code'
 git push -u origin main
-\```
+```
 ```
 
 What's the best part?
