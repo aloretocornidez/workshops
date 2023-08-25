@@ -31,6 +31,12 @@ Markdown is a way to create readable text files that can be parsed by platforms 
 # Markdown Features
 Let's discuss a few of the features that are possible with markdown.
 
+## Text Formatting
+You can do simple formatting quite easily:
+*Italics*, **Bold**, ***Italic AND Bold***, __Underline__,~~Strikethough~~ 
+
+
+
 ## Headings and Sub-Headings
 I've been using headings for this entire workshop, it let's you divide topics and subtopics.
 
