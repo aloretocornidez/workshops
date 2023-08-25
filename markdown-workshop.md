@@ -154,11 +154,36 @@ You can do ordered and unordered lists, with checkmarks as well!
 These are my favorite feature you can use with markdown. It lets me type my notes in class pretty easily, though it may annoy all of my classmates :P (sorry!)
 
 
-$$ \mathbb{F}(s) = \int_{-\infty}^{\infty}{e^-{st} dt} $$
+$$ \mathbb{F}(s) = \int_{-\infty}^{\infty}{e^{-st} dt} $$
 
 Where
 
 $$ s \in \mathbb{C}$$
+
+Or matrices:
+
+$$\begin{bmatrix}
+a && b && c \\
+1 && 2 && c \\
+x && y && z 
+
+\end{bmatrix}
+$$
+
+```
+$$ \mathbb{F}(s) = \int_{-\infty}^{\infty}{e^{-st} dt} $$
+
+Where
+
+$$ s \in \mathbb{C}$$
+
+or matrices: 
+
+$$\begin{bmatrix}
+a && b && c \\
+1 && 2 && c \\
+x && y && z 
+```
 
 
 ## Activity
