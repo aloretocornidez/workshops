@@ -24,7 +24,7 @@ Markdown is a way to create readable text files that can be parsed by platforms 
     - Bitbucket
     - Gitlab
 
--Note Taking Platforms
+-Note Taking Platforms 
     - Obsidian
 
 
