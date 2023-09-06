@@ -17,11 +17,16 @@ Create a `README.md` for your github profile!
 
 ## Procedure
 1. [Create a GitHub Account](https://github.com/signup)
-2. [Create a Profile GitHub Reposity](https://docs.github.com/en/get-started/quickstart/create-a-repo)
+2. [Create a Profile GitHub Repository](https://docs.github.com/en/get-started/quickstart/create-a-repo)
 3. Place a `README.md` file in the `root` directory of the repository.
 4. Modify your `README.md` file and add the things!
 
 
+## Example Profile Readme
+
+Here's my [README.md](https://github.com/aloretocornidez/aloretocornidez/blob/main/README.md?plain=1) for my [profile](https://github.com/aloretocornidez). 
+
+Feel free to 'reference' (steal) as much as you'd like! (It's opensource after all :shrug:)
 
 
 

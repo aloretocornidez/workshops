@@ -1,0 +1,178 @@
+{
+  "main": {
+    "id": "2f59a321ae019938",
+    "type": "split",
+    "children": [
+      {
+        "id": "5c320bdb15b5a6e8",
+        "type": "tabs",
+        "dimension": 53.09168443496801,
+        "children": [
+          {
+            "id": "5291f1128e8fc8fb",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "activity.md",
+                "mode": "source",
+                "source": true
+              }
+            },
+            "group": "6727b6843db97d18"
+          }
+        ]
+      },
+      {
+        "id": "fc577bd35ed0b713",
+        "type": "tabs",
+        "dimension": 46.908315565031984,
+        "children": [
+          {
+            "id": "70ef7ab77463eee1",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "activity.md",
+                "mode": "preview",
+                "source": false
+              }
+            },
+            "group": "6727b6843db97d18"
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "3c04f3f001afdb9d",
+    "type": "split",
+    "children": [
+      {
+        "id": "ae0dc0b07ccde6f1",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "d3b119e138e57e97",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "ca4f993661156929",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "336664ebb6033143",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "right": {
+    "id": "d4bf31b401de2694",
+    "type": "split",
+    "children": [
+      {
+        "id": "ca7d7b83e632ec52",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "3af4815dab606b80",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "activity.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "dbe215441364e3cf",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "activity.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "bfdb40ff84dc4784",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "f7bb6c5ed639519e",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "activity.md"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false
+    }
+  },
+  "active": "5291f1128e8fc8fb",
+  "lastOpenFiles": [
+    "markdown-workshop.md",
+    "README.md",
+    "activity.md"
+  ]
+}
