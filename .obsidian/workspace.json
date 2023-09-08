@@ -4,32 +4,30 @@
     "type": "split",
     "children": [
       {
-        "id": "5c320bdb15b5a6e8",
+        "id": "2e8abfcc9dafef25",
         "type": "tabs",
-        "dimension": 53.09168443496801,
         "children": [
           {
-            "id": "5291f1128e8fc8fb",
+            "id": "0a8a5c80d25aee10",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
                 "file": "README.md",
                 "mode": "source",
-                "source": true
+                "source": false
               }
             },
-            "group": "6727b6843db97d18"
+            "group": "77223ca6010c01c6"
           }
         ]
       },
       {
-        "id": "fc577bd35ed0b713",
+        "id": "bb790944607c97fe",
         "type": "tabs",
-        "dimension": 46.908315565031984,
         "children": [
           {
-            "id": "70ef7ab77463eee1",
+            "id": "52840f9efe16b868",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -39,7 +37,7 @@
                 "source": false
               }
             },
-            "group": "6727b6843db97d18"
+            "group": "77223ca6010c01c6"
           }
         ]
       }
@@ -168,10 +166,12 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "5291f1128e8fc8fb",
+  "active": "52840f9efe16b868",
   "lastOpenFiles": [
-    "markdown-workshop.md",
+    "obsidian.md",
+    "README.md",
+    "LaTeX.md",
     "activity.md",
-    "README.md"
+    "markdown-workshop.md"
   ]
 }

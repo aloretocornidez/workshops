@@ -9,6 +9,8 @@ This is an IEEE workshop to help students understand how to use Markdown to bett
 
 1. [Workshop](./markdown-workshop.md)
 2. [Activity](./activity.md)
+3. [LaTeX Information](./LaTeX.md)
+4. [Obsidian](./obsidian.md)
 
 
 
