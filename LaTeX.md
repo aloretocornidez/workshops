@@ -70,3 +70,7 @@ When using an editor like obsidian, you can include in-line equations by surroun
 ```tex 
 $F( j \omega ) = \int\limits_{-\infty}^{\infty} f(t) e^{-j \omega t} dt$
 ```
+
+This renders the equation like this:
+$F( j \omega ) = \int\limits_{-\infty}^{\infty} f(t) e^{-j \omega t} dt$
+
