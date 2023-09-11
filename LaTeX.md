@@ -3,7 +3,7 @@
 ## What is $\LaTeX$?
 
 _Note_: The following sections of this parge are direct copies from the
-[LaTeX](https://www.latex-project.org/about/) website.
+[LaTeX website](https://www.latex-project.org/about/).
 
 LaTeX, which is pronounced «Lah-tech» or «Lay-tech» (to rhyme with «blech» or
 «Bertolt Brecht»), is a document preparation system for high-quality
@@ -44,21 +44,20 @@ LaTeX you would input this document as:
 
 Or, in English:
 
-    - This document is an article.
-    - Its title is Cartesian closed categories and the price of eggs.
-    - Its author is Jane Doe.
-    - It was written in September 1994.
-    - The document consists of a title followed by the text Hello world!
+- This document is an article.
+- Its title is Cartesian closed categories and the price of eggs.
+- Its author is Jane Doe.
+- It was written in September 1994.
+- The document consists of a title followed by the text Hello world!
 
-## LaTeX Features
-
-    - Typesetting journal articles, technical reports, books, and slide presentations.
-    - Control over large documents containing sectioning, cross-references, tables and figures.
-    - Typesetting of complex mathematical formulas.
-    - Advanced typesetting of mathematics with AMS-LaTeX.
-    - Automatic generation of bibliographies and indexes.
-    - Multi-lingual typesetting.
-    - Inclusion of artwork, and process or spot colour.
-    - Using PostScript or Metafont fonts.
+## LaTeX Features 
+- Typesetting journal articles, technical reports, books, and slide presentations.
+- Control over large documents containing sectioning, cross-references, tables and figures.
+- Typesetting of complex mathematical formulas.
+- Advanced typesetting of mathematics with AMS-LaTeX.
+- Automatic generation of bibliographies and indexes.
+- Multi-lingual typesetting.
+- Inclusion of artwork, and process or spot colour.
+- Using PostScript or Metafont fonts.
 
 ## Why should you use $\LaTeX$?
