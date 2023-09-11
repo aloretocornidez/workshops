@@ -60,4 +60,13 @@ Or, in English:
 - Inclusion of artwork, and process or spot colour.
 - Using PostScript or Metafont fonts.
 
-## Why should you use $\LaTeX$?
+
+
+## How does $\LaTeX$ work?
+
+For the purposes of note-taking, the concept is very simple.
+When using an editor like obsidian, you can include in-line equations by surrounding your equation in dollar signs as shown:
+
+```tex 
+$F( j \omega ) = \int\limits_{-\infty}^{\infty} f(t) e^{-j \omega t} dt$
+```
