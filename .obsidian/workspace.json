@@ -15,7 +15,7 @@
               "state": {
                 "file": "LaTeX.md",
                 "mode": "source",
-                "source": false
+                "source": true
               }
             },
             "group": "603e452fef035bf3"
@@ -166,12 +166,12 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "3bdda288426a1987",
+  "active": "f23a2194a3bd5e8e",
   "lastOpenFiles": [
+    "activity.md",
     "LaTeX.md",
     "README.md",
     "obsidian.md",
-    "activity.md",
     "markdown-workshop.md"
   ]
 }
