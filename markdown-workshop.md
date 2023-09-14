@@ -91,7 +91,6 @@ git push -u origin main
 
 
 ````
-
 Do it like this:
 ``` 
 git add .
@@ -156,7 +155,7 @@ You can do ordered and unordered lists, with checkmarks as well!
 These are my favorite feature you can use with markdown. It lets me type my notes in class pretty easily, though it may annoy all of my classmates :P (sorry!)
 
 
-$$ \mathbb{F}(s) = \int_{-\infty}^{\infty}{e^{-st} dt} $$
+$$ \mathbb{F}(s) = \int_{-\infty}^{\infty}{f(t) e^{-st} dt} $$
 
 Where
 
@@ -164,7 +163,7 @@ $$ s \in \mathbb{C}$$
 
 
 ```
-$$ \mathbb{F}(s) = \int_{-\infty}^{\infty}{e^{-st} dt} $$
+$$ \mathbb{F}(s) = \int_{-\infty}^{\infty}{f(t) e^{-st} dt} $$
 
 Where
 

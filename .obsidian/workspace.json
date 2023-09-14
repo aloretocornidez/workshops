@@ -13,27 +13,14 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "obsidian.md",
+                "file": "markdown-workshop.md",
                 "mode": "source",
                 "source": true
               }
             },
             "group": "603e452fef035bf3"
-          },
-          {
-            "id": "71ba802ee96f25f3",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "markdown-workshop.md",
-                "mode": "source",
-                "source": false
-              }
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       },
       {
         "id": "4c65024b8d136c38",
@@ -45,7 +32,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "obsidian.md",
+                "file": "markdown-workshop.md",
                 "mode": "preview",
                 "source": false
               }
@@ -190,14 +177,14 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "71ba802ee96f25f3",
+  "active": "f23a2194a3bd5e8e",
   "lastOpenFiles": [
     "LaTeX.md",
+    "markdown-workshop.md",
     "activity.md",
+    "obsidian.md",
     "README.md",
     "summary.md",
-    "obsidian.md",
-    "summarry.md",
-    "markdown-workshop.md"
+    "summarry.md"
   ]
 }
