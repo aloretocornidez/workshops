@@ -175,7 +175,7 @@ $$ s \in \mathbb{C}$$
 # There's so many more features!
 - Emojis: :octocat:
 - Comments: <!-- You can't see this unless you look at the source code ;)-->
-- Images: 
+- Images and Gifs: 
 <img src="https://cdn.myanimelist.net/s/common/uploaded_files/1449565442-799682393c093c4b5a5034dde32bb999.gif" width="200"/>
 
 - And [links!](https://www.youtube.com/watch?v=dQw4w9WgXcQ)
