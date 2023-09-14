@@ -103,6 +103,8 @@ $$F( j \omega ) = \int\limits_{-\infty}^{\infty} f(t) e^{-j \omega t} dt$$
 
 
 
+# Summary
+Now that you know how to do some basic operations using $\LaTeX$, let's see how we can put the power of markdown and $\LaTeX$ together by going to the next [file](./obsidian.md) which talks a bit about obsidian.
 
 
 
