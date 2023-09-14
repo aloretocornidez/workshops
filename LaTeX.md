@@ -57,7 +57,6 @@ Or, in English:
 - Advanced typesetting of mathematics with AMS-LaTeX.
 - Automatic generation of bibliographies and indexes.
 - Multi-lingual typesetting.
-- Inclusion of artwork, and process or spot colour.
 - Using PostScript or Metafont fonts.
 
 
@@ -77,5 +76,35 @@ $F( j \omega ) = \int\limits_{-\infty}^{\infty} f(t) e^{-j \omega t} dt$
 Surrounding the equation in 2 \$ symbols makes it a full-line equation instead of an in-line equation
 
 $$F( j \omega ) = \int\limits_{-\infty}^{\infty} f(t) e^{-j \omega t} dt$$
+
+
+
+
+### Common Symbols that are used in engineering:
+
+| Symbol                                         | Latex Reference                                |
+| ---------------------------------------------- | ---------------------------------------------- |
+| $\alpha$                                       | `\alpha`                                       |
+| $\beta$                                        | `\beta`                                        |
+| $\omega$                                       | `\omega`                                       |
+| $\Omega$                                       | `\Omega`                                       |
+| $\sum\limits$                                  | `\sum`                                         |
+| $\int$                                         | `\int`                                         |
+| $\therefore$                                   | `\therefore`                                   |
+| $\longrightarrow$                              | `\longrightarrow`                              |
+| $\Longrightarrow$                              | `\Longrightarrow`                              | 
+| $\text{Text}$                                  | `\text{Text}`                                  |
+| $\begin{bmatrix}1 && 0 \\ 0 && 1\end{bmatrix}$ | `\begin{bmatrix}1 && 0 \\ 0 && 1\end{bmatrix}` |
+| $\frac{a}{b}$                                  | `\frac{a}{b}`                                  |
+
+
+
+
+
+
+
+
+
+
 
 
