@@ -20,12 +20,12 @@ Markdown is a way to create readable text files that can be parsed by platforms 
     - Microsoft Teams
 
 - Code-Hosting Platforms
-    - **Github**
-    - Bitbucket
-    - Gitlab
+    - [Github](https://www.github.com)
+    - [Bitbucket](https://www.bitbuket.org)
+    - [Gitlab](https://www.gitlab.com)
 
 - Note Taking Platforms 
-	- Obsidian
+	- [Obsidian](https://www.obsidian.md)
 
 
 # Markdown Features
@@ -116,7 +116,7 @@ while(true)
 ```
 ````
 
-## Lists.
+## Lists
 You can do ordered and unordered lists, with checkmarks as well!
 
 1. Item 1

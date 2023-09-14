@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "markdown-workshop.md",
+                "file": "obsidian.md",
                 "mode": "source",
                 "source": true
               }
@@ -32,7 +32,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "markdown-workshop.md",
+                "file": "obsidian.md",
                 "mode": "preview",
                 "source": false
               }
@@ -105,7 +105,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "markdown-workshop.md",
+                "file": "obsidian.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -122,7 +122,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "markdown-workshop.md",
+                "file": "obsidian.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -145,7 +145,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "markdown-workshop.md"
+                "file": "obsidian.md"
               }
             }
           },
@@ -179,8 +179,8 @@
   },
   "active": "f23a2194a3bd5e8e",
   "lastOpenFiles": [
-    "LaTeX.md",
     "markdown-workshop.md",
+    "LaTeX.md",
     "activity.md",
     "obsidian.md",
     "README.md",

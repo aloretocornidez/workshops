@@ -1,12 +1,6 @@
 
 
-# [Obsidian](https://obsidian.md)
-
-
-
-
-
-
+# Obsidian
 
 ## What is Obsidian?
 
