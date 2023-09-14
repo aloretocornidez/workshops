@@ -26,7 +26,7 @@ Create a `README.md` for your github profile!
 
 Here's my [README.md](https://github.com/aloretocornidez/aloretocornidez/blob/main/README.md?plain=1) for my [profile](https://github.com/aloretocornidez). 
 
-Feel free to 'reference' (steal) as much as you'd like! (It's opensource after all :shrug:)
+Feel free to 'reference' (steal) as much as you'd like! (It's open source after all :shrug:)
 
 
 

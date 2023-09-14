@@ -152,6 +152,9 @@ You can do ordered and unordered lists, with checkmarks as well!
 
 
 ## Math Equations!
+
+*Note:  Markdown support for equations depends on which markdown interpreter you use. Github and Obsidian both support $\LaTeX$ style equation writing.*
+
 These are my favorite feature you can use with markdown. It lets me type my notes in class pretty easily, though it may annoy all of my classmates :P (sorry!)
 
 
