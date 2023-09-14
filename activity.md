@@ -33,7 +33,7 @@ Feel free to 'reference' (steal) as much as you'd like! (It's open source after 
 
 
 
-
+After you finish working on your GitHub `README.md` you can continue to read about $\LaTeX$ (here)[./LaTeX.md].
 
 
 
