@@ -17,4 +17,4 @@ I use it to take notes in school.
 - Include tables
 - My notes can be synced via GitHub.
 
-[[Summary]]
+[Summary](./summary.md)
