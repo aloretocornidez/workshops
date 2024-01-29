@@ -28,7 +28,7 @@ workflow to better fit your needs, what can you do to get started?
 > is basically GNU with Linux added, or GNU/Linux. All the so-called “Linux”
 > distributions are really distributions of GNU/Linux.
 >
-> - Random Internet Stranger (circa early 2000s??!1)
+> \- Random Internet Stranger (circa early 2000s??!1)
 
 While the meme clearly exists for a reason, let me ask you, "Would you trust a
 mechanic who doesn't know when they should use their ratchet, impact gun, or
@@ -60,7 +60,8 @@ these tools. A list of many useful commands in addition to a brief description
 can be found at
 [wikipedia.org/wiki/List_of_GNU_Core_Utilities_commands](https://en.wikipedia.org/wiki/List_of_GNU_Core_Utilities_commands).
 
-## Why is
 
 
-Test
+
+
+
