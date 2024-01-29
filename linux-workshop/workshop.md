@@ -60,8 +60,45 @@ these tools. A list of many useful commands in addition to a brief description
 can be found at
 [wikipedia.org/wiki/List_of_GNU_Core_Utilities_commands](https://en.wikipedia.org/wiki/List_of_GNU_Core_Utilities_commands).
 
+## Why should I use linux?
+
+Linux isn't for everyone, it's not the perfect platform for every application,
+however, Linux excels at what it is good at.
+
+Here's a few reasons for why I use linux:
+
+- Software Development
+
+  - Python
+  - C/C++
+  - Git
+  - Web Development
+  - Embedded Systems
+
+- Linux offers endless customizability
+- Privacy is much easier to maintain on linux.
+- Free-Open Source software
+
+Who is linux not for?
+
+Linux does not work well for people who are bound to certain pieces of software.
+There are lots of software tools that are only available on linux (with full
+compatibility).
+
+- Adobe Design Suite
+- Gaming (Though, this situation is much better than before).
+
+
+## How Can I get Started?
+
+There are multiple options for getting started with linux:
+
+Process Virtual Machines (A computer in your computer)  
+
+- Oracle Virtual Box 
+- VM Ware 
 
 
 
-
-
+- System Virtual Machines 
+    - 
