@@ -270,9 +270,10 @@ For example, let's look at the `ls` command.
 ```
 
 But I want it to show me the contents in a different way, so I'll use some flags
-to change that:
+to change that `A` shows all hidden files, `gG` shows the owners of the files
+and `h` shows the size of the file in a human readable format:
 
-instead of running `ls`, I'll run `ls -gGh`
+instead of running `ls`, I'll run `ls -AgGh`
 
 ```
 drwxr-xr-x  6 4.0K Jan 11 13:29 175-computer-programming
@@ -298,6 +299,8 @@ make the directories appear in color. To do this I can add the flags
 `--group-directories-first` so that the directories are listed first and then
 the files.
 
+Running `ls -AgGh --color=auto --group-directories-first` gives this output.
+
 ```
 drwxr-xr-x  6 4.0K Jan 11 13:29 175-computer-programming
 drwxr-xr-x  4 4.0K Jan 28 19:55 531-software-defined-radio
@@ -315,9 +318,112 @@ drwxr-xr-x  6 4.0K Jan 29 11:15 workshops
 -rw-r--r--  1  530 Jan 30 08:29 todo.md
 ```
 
-Now I have my command that I want and have gotten the behavior that I wanted. If
-you want your commands to exhibit this behavior every time you type `ls` you can
-do this with an 'alias'.
+Now I have my command that I want and have gotten the behavior that I wanted.
+This may seem cumbersome or annoying to do, and I agree. If you want your
+commands to exhibit this behavior every time without having to type all of the
+flags you can do this with an 'alias'. This lets you run multiple commands by
+typing something else.
+
+The easiest way to do this is by adding the alias to the configuration file for
+your bash shell. (We can return to this if you would like).
+
+However, I mentioned that software development is easy on linux, so let's make a
+quick hello world program.
+
+Let's make a `main.c` file and put this code in there:
+
+You can use the `nano` program to do this. Use the following command:
+
+```bash
+nano main.c
+```
+
+This will open the `nano` text editor and let you modify the `main.c` file.
+
+```c
+#include <stdio.h>
+
+int main(int argc, char* argv[])
+{
+    printf("Hello World!!!\n");
+    return 0;
+}
+```
+
+Now we need to compile it, so let's invoke our compiler and make it compile our
+code.
+
+We can do that using this command:
+
+```bash
+gcc -o main main.c
+```
+
+_Note_: `gcc` is the 'compiler' we are invoking, `-o main` tells the program to
+compile to the name `main`, and the `main.c` is the source file that we're
+giving it.
+
+If everything went well, there should be no output, otherwise, fix your error
+and compiler again.
+
+After that, we can run our code using the following command:
+
+```bash
+./main
+```
+
+We should see the `Hello World!!!` pop up in our terminal at this point.
+
+## What's next?
+
+Well, now you have a basic understanding of some of the things that are possible
+with linux, however, there's a lot of questions that you may not know the answer
+to.
+
+When using linux, there is a large culture shift in how people will help you,
+especially if you use certain distributions of linux, ever heard of `RTFM`. So
+let me give you some quick tips on figuring out how something works.
+
+### Help Flags
+
+The first option to learn how a command works is to use the `-h` or `--help`
+flag. This will show the help information of the program. Sometimes it can be
+something like `git help <command>`. Help is usually retrieved using a variation
+of those three commands:
+
+```bash
+<command> -h
+<command> --help
+<command> help
+```
+
+## Manual pages
+
+In reference to the `RTFM` comments you may receive, here's the manual pages.
+
+`man` is a command that shows you the manual of a program. Usually they are more
+in-depth than the help pages of the command as well. However, you need to trust
+that the developer has written the man pages for the software itself. This
+usually isn't a problem, especially with more popular software.
+
+## Wiki pages
+
+Use google. The [Arch Wiki](https://wiki.archlinux.org/) has some of the best
+documentation that applies to more than just that particular distribution.
+
+The last resort should be to make a forum post on a forum of your choice
+(usually a forum dedicated your your particular distribution).
+
+Now that you have a simple roadmap, I hope you can utilize linux, or at the very
+least, understand why it is held in such high regard.
+
+If you want to see ome really cool tricks, you should attend the Bash Workshop
+that will be held in a few weeks. This workshop teaches you a lot of cool tricks
+that are more than just 'here is how commands work'.
+
+
+As you gain more experience, you'll be able to utilize the the command line a lot more and make it more efficient than using your gui application. One example: it is literally faster to pull all of my repositories using my terminal than it is using the gui application. Because I set up an alias.
+
 
 
 
