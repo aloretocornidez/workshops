@@ -88,17 +88,164 @@ compatibility).
 - Adobe Design Suite
 - Gaming (Though, this situation is much better than before).
 
-
 ## How Can I get Started?
 
 There are multiple options for getting started with linux:
 
-Process Virtual Machines (A computer in your computer)  
+**Process Virtual Machines** (An operating system within your operating system)
 
-- Oracle Virtual Box 
-- VM Ware 
+- Oracle Virtual Box
+- VM Ware
+
+**System Virtual Machines** run through a "hypervisor" which lets both operating
+systems access the hardware at near native speeds.
+
+- Windows Sub-System for Linux (WSL)
+
+**Dual booting** lets you run two different OSes on the same computer by
+partitioning your hard drive with multiple operating systems (or using multiple
+hard drives)
+
+> How should I use Linux then?
+
+Great question, my personal recommendation for most people who are on windows is
+to either
+
+- Begin with an ubuntu Virtual Machine to prepare themselves for dual booting.
+- Use windows WSL so that they can get the best (and worst) of both operating
+  systems.
+
+If you are on MacOS, you basically already have what most people think of when
+they imagine what linux is.
+
+Let's take this time to install WSL or our virtual machine.
+
+Follow [these steps](https://learn.microsoft.com/en-us/windows/wsl/install) to
+install WSL. Another option is to go to the
+[microsoft store](https://apps.microsoft.com/detail/9P9TQF7MRM4R?hl=en-us&gl=US)
+and install WSL from there.
+
+While you're there, you can install
+[Ubuntu](https://apps.microsoft.com/detail/9PDXGNCFSCZV?hl=en-us&gl=US) as well.
+
+This install can be done entirely through the command line if you would prefer:
+
+```ps
+wsl --install
+
+wsl --install -d Ubuntu
+```
+
+I also recommend this terminal emulator:
+[Windows Terminal](https://apps.microsoft.com/detail/9N0DX20HK701?hl=en-US&gl=US)
+
+## Time to begin using linux
+
+> How do I install applications?
+
+Application in linux are installed using something called a 'Package Manager',
+the specific package manager that you use will change depending on the
+distribution you are using. If you are on Ubuntu, your package manager is `apt`,
+if you are on other distributions, it may be `yum` or `dnf`.
+
+In addition to the package manager, there are other stores that are available,
+such as the `snap` store or `Flathub`, imagine that these are kind of like
+installing applications through `Steam` or another game launcher.
+
+### Installing Software
+
+Installing software on linux is as simple as running a command such as:
+
+```bash
+apt install git-all # installs the git version control system
+```
+
+or
+
+```bash
+snap install spotify # installs the spotify music app.
+```
+
+or
+
+```bash
+flatpak install LibreWolf # installs the LibreWolf browser.
+```
+
+You'll notice that the commands look fairly similar, you'll quickly learn that
+is usually the case with a lot of apps that you try to use the command line.
+They have a very similar command structure.
+
+`application action argument`
+
+For example, if you wanted to search for applications instead of installing
+them, you could replace `install` with `search` for all three of them.
+
+```bash
+snap search spotify # searches the for the spotify app and returns the information for it.
+```
+
+### `sudo` Commands
+
+As some of you may have noticed when trying to install something, you may not
+have permissions to do so. That is because installing software on linux requires
+the use of root permissions (or as windows users call it, administrator
+privileges).
+
+There is a program in linux called `sudo` (which stands for "super user do"),
+which allows you to run a single command as an administrator. This requires you
+to enter your account password. You can only run these commands if your account
+has 'sudo' permissions. This is done in the name of security.
+
+### Navigating your computer
+
+Okay, so you've installed some software, but we likely want to do more than just
+install our software, we probably want to be able to use it as well.
+
+It is important to remember that all of our software that contains a graphical
+user interface (GUI) is just software that manipulates a text file or works with
+a text file in some way.
+
+We store all of our files in a directory on our computer, so let's learn how to
+navigate our directories.
+
+Here are three extremely useful commands (part of the GNU utils)
+
+#### `ls`
+
+`ls` lists the sub-contents of a directory, the default is the current
+directory, but you can use any directory on your system as an argument.
+
+```bash
+ls # lists the contents of the specified directory, the default is the current directory
+```
+
+#### `cd`
+
+`cd` changes your current working directory to the specified directory that you
+entered as an argument.
+
+Using `cd` alone on the command line will return you to your home directory.
+
+Using `../` as part of your argument lets you go back a directory.
+
+Using `./` as part of your argument specifies that something is in the current directory.
+
+```bash
+cd
+```
+
+#### `pwd` 
+
+`pwd` prints out the directory that you're currently inside of in your current terminal (emulator).
 
 
 
-- System Virtual Machines 
-    - 
+```bash
+pwd # print working directory
+```
+
+
+### Command Flags
+
+
