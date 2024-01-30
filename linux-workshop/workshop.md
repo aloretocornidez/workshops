@@ -154,6 +154,11 @@ installing applications through `Steam` or another game launcher.
 
 ### Installing Software
 
+Let's use some software(though, we technically already have, just without using
+a gui, remember, all software is just running commands like this. Instead of you
+typing it into the terminal, the GUI changes the command that is run and then
+runs it when you click 'ok')
+
 Installing software on linux is as simple as running a command such as:
 
 ```bash
@@ -229,23 +234,90 @@ Using `cd` alone on the command line will return you to your home directory.
 
 Using `../` as part of your argument lets you go back a directory.
 
-Using `./` as part of your argument specifies that something is in the current directory.
+Using `./` as part of your argument specifies that something is in the current
+directory.
 
 ```bash
 cd
 ```
 
-#### `pwd` 
+#### `pwd`
 
-`pwd` prints out the directory that you're currently inside of in your current terminal (emulator).
-
-
+`pwd` prints out the directory that you're currently inside of in your current
+terminal (emulator).
 
 ```bash
 pwd # print working directory
 ```
 
+### Changing command behavior | Flags
 
-### Command Flags
+Sometimes, the command structure may not always be exactly how we want it.
+
+In cases like this, it is important to know how to use command flags. Command
+flags let us change the behavior of the programs that we're running.
+
+For example, let's look at the `ls` command.
+
+`ls` returns this output in my home directory:
+
+```
+175-computer-programming                       579-principles-of-artificial-intelligence  school-notes
+531-software-defined-radio                     iso-files                                  textbooks
+571-fundamentals-information-network-security  lab-571                                    todo.md
+574-computer-aided-logic-design                non-school                                 workshops
+574-project                                    personal-git
+```
+
+But I want it to show me the contents in a different way, so I'll use some flags
+to change that:
+
+instead of running `ls`, I'll run `ls -gGh`
+
+```
+drwxr-xr-x  6 4.0K Jan 11 13:29 175-computer-programming
+drwxr-xr-x  4 4.0K Jan 28 19:55 531-software-defined-radio
+drwxr-xr-x  6 4.0K Jan 28 19:16 571-fundamentals-information-network-security
+drwxr-xr-x  5 4.0K Jan 11 12:22 574-computer-aided-logic-design
+drwxr-xr-x  6 4.0K Jan 24 09:07 574-project
+drwxr-xr-x  4 4.0K Jan 18 08:03 579-principles-of-artificial-intelligence
+drwxr-xr-x  3 4.0K Jan 19 11:46 iso-files
+drwxr-xr-x  5 4.0K Jan 19 14:27 lab-571
+drwxr-xr-x  2 4.0K Jan 17 10:26 non-school
+drwxr-xr-x 12 4.0K Jan 28 19:17 personal-git
+drwxr-xr-x  4 4.0K Jan 17 08:57 school-notes
+drwxr-xr-x  2 4.0K Jan 24 11:26 textbooks
+-rw-r--r--  1  530 Jan 30 08:29 todo.md
+drwxr-xr-x  6 4.0K Jan 29 11:15 workshops
+```
+
+This gives me a bit more information that I like in addition to listing my
+contents in a line by line basis. But I also want to sort directories first and
+make the directories appear in color. To do this I can add the flags
+`--color=auto` so that it matches my terminal theme and
+`--group-directories-first` so that the directories are listed first and then
+the files.
+
+```
+drwxr-xr-x  6 4.0K Jan 11 13:29 175-computer-programming
+drwxr-xr-x  4 4.0K Jan 28 19:55 531-software-defined-radio
+drwxr-xr-x  6 4.0K Jan 28 19:16 571-fundamentals-information-network-security
+drwxr-xr-x  5 4.0K Jan 11 12:22 574-computer-aided-logic-design
+drwxr-xr-x  6 4.0K Jan 24 09:07 574-project
+drwxr-xr-x  4 4.0K Jan 18 08:03 579-principles-of-artificial-intelligence
+drwxr-xr-x  3 4.0K Jan 19 11:46 iso-files
+drwxr-xr-x  5 4.0K Jan 19 14:27 lab-571
+drwxr-xr-x  2 4.0K Jan 17 10:26 non-school
+drwxr-xr-x 12 4.0K Jan 28 19:17 personal-git
+drwxr-xr-x  4 4.0K Jan 17 08:57 school-notes
+drwxr-xr-x  2 4.0K Jan 24 11:26 textbooks
+drwxr-xr-x  6 4.0K Jan 29 11:15 workshops
+-rw-r--r--  1  530 Jan 30 08:29 todo.md
+```
+
+Now I have my command that I want and have gotten the behavior that I wanted. If
+you want your commands to exhibit this behavior every time you type `ls` you can
+do this with an 'alias'.
+
 
 
