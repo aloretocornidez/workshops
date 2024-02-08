@@ -30,12 +30,12 @@ workflow to better fit your needs, what can you do to get started?
 >
 > \- Random Internet Stranger (circa early 2000s??!1)
 
-While the meme clearly exists for a reason, let me ask you, "Would you trust a
-mechanic who doesn't know when they should use their ratchet, impact gun, or
-hammer?"
+While the copy-pasta clearly exists for a reason, let me ask you, "Would you
+trust a mechanic who doesn't know when they should use their ratchet, impact
+gun, or hammer?"
 
-In short, linux is the word that people use to refer a a lot of things that are
-technically more than just linux. In order to better communicate what we're
+In short, Linux is the word that people use to refer a a lot of things that are
+technically more than just Linux. In order to better communicate what we're
 actually doing, I'm going to define some terms. Having an understanding of the
 intricacies of these differences will allow us to better communicate with each
 other as well as better understand our tools.
@@ -55,17 +55,17 @@ through the command line (using a terminal emulator).
 
 **GNU Core Utils**: The GNU(pronounced guh-new) core utils is a collection of
 software tools that allow us to useful commands through the command line. If you
-want to 'level up' your 'linux' prowess, it would be wise to lean how to utilize
+want to 'level up' your 'Linux' prowess, it would be wise to lean how to utilize
 these tools. A list of many useful commands in addition to a brief description
 can be found at
 [wikipedia.org/wiki/List_of_GNU_Core_Utilities_commands](https://en.wikipedia.org/wiki/List_of_GNU_Core_Utilities_commands).
 
-## Why should I use linux?
+## Why should I use Linux?
 
 Linux isn't for everyone, it's not the perfect platform for every application,
 however, Linux excels at what it is good at.
 
-Here's a few reasons for why I use linux:
+Here's a few reasons for why I use Linux:
 
 - Software Development
 
@@ -76,21 +76,20 @@ Here's a few reasons for why I use linux:
   - Embedded Systems
 
 - Linux offers endless customizability
-- Privacy is much easier to maintain on linux.
+- Privacy is much easier to maintain on Linux.
 - Free-Open Source software
+- Cool software that I use
 
-Who is linux not for?
+Who is Linux not for?
 
-Linux does not work well for people who are bound to certain pieces of software.
-There are lots of software tools that are only available on linux (with full
-compatibility).
+Linux does not work well for people who are bound certain software.
 
 - Adobe Design Suite
 - Gaming (Though, this situation is much better than before).
 
 ## How Can I get Started?
 
-There are multiple options for getting started with linux:
+There are multiple options for getting started with Linux:
 
 **Process Virtual Machines** (An operating system within your operating system)
 
@@ -116,7 +115,7 @@ to either
   systems.
 
 If you are on MacOS, you basically already have what most people think of when
-they imagine what linux is.
+they imagine what Linux is.
 
 Let's take this time to install WSL or our virtual machine.
 
@@ -139,11 +138,11 @@ wsl --install -d Ubuntu
 I also recommend this terminal emulator:
 [Windows Terminal](https://apps.microsoft.com/detail/9N0DX20HK701?hl=en-US&gl=US)
 
-## Time to begin using linux
+## Time to begin using Linux
 
 > How do I install applications?
 
-Application in linux are installed using something called a 'Package Manager',
+Application in Linux are installed using something called a 'Package Manager',
 the specific package manager that you use will change depending on the
 distribution you are using. If you are on Ubuntu, your package manager is `apt`,
 if you are on other distributions, it may be `yum` or `dnf`.
@@ -159,7 +158,7 @@ a gui, remember, all software is just running commands like this. Instead of you
 typing it into the terminal, the GUI changes the command that is run and then
 runs it when you click 'ok')
 
-Installing software on linux is as simple as running a command such as:
+Installing software on Linux is as simple as running a command such as:
 
 ```bash
 apt install git-all # installs the git version control system
@@ -193,11 +192,11 @@ snap search spotify # searches the for the spotify app and returns the informati
 ### `sudo` Commands
 
 As some of you may have noticed when trying to install something, you may not
-have permissions to do so. That is because installing software on linux requires
+have permissions to do so. That is because installing software on Linux requires
 the use of root permissions (or as windows users call it, administrator
 privileges).
 
-There is a program in linux called `sudo` (which stands for "super user do"),
+There is a program in Linux called `sudo` (which stands for "super user do"),
 which allows you to run a single command as an administrator. This requires you
 to enter your account password. You can only run these commands if your account
 has 'sudo' permissions. This is done in the name of security.
@@ -327,7 +326,7 @@ typing something else.
 The easiest way to do this is by adding the alias to the configuration file for
 your bash shell. (We can return to this if you would like).
 
-However, I mentioned that software development is easy on linux, so let's make a
+However, I mentioned that software development is easy on Linux, so let's make a
 quick hello world program.
 
 Let's make a `main.c` file and put this code in there:
@@ -377,11 +376,11 @@ We should see the `Hello World!!!` pop up in our terminal at this point.
 ## What's next?
 
 Well, now you have a basic understanding of some of the things that are possible
-with linux, however, there's a lot of questions that you may not know the answer
+with Linux, however, there's a lot of questions that you may not know the answer
 to.
 
-When using linux, there is a large culture shift in how people will help you,
-especially if you use certain distributions of linux, ever heard of `RTFM`. So
+When using Linux, there is a large culture shift in how people will help you,
+especially if you use certain distributions of Linux, ever heard of `RTFM`. So
 let me give you some quick tips on figuring out how something works.
 
 ### Help Flags
@@ -408,21 +407,25 @@ usually isn't a problem, especially with more popular software.
 
 ## Wiki pages
 
-Use google. The [Arch Wiki](https://wiki.archlinux.org/) has some of the best
+Use google. The [Arch Wiki](https://wiki.archLinux.org/) has some of the best
 documentation that applies to more than just that particular distribution.
 
 The last resort should be to make a forum post on a forum of your choice
 (usually a forum dedicated your your particular distribution).
 
-Now that you have a simple roadmap, I hope you can utilize linux, or at the very
+Now that you have a simple roadmap, I hope you can utilize Linux, or at the very
 least, understand why it is held in such high regard.
 
 If you want to see ome really cool tricks, you should attend the Bash Workshop
 that will be held in a few weeks. This workshop teaches you a lot of cool tricks
 that are more than just 'here is how commands work'.
 
+As you gain more experience, you'll be able to utilize the the command line a
+lot more and make it more efficient than using your gui application. One
+example: it is literally faster to pull all of my repositories using my terminal
+than it is using the gui application. Because I set up an alias.
 
-As you gain more experience, you'll be able to utilize the the command line a lot more and make it more efficient than using your gui application. One example: it is literally faster to pull all of my repositories using my terminal than it is using the gui application. Because I set up an alias.
+
 
 
 
