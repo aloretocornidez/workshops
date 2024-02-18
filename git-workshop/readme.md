@@ -104,7 +104,7 @@ having to add each individual file).
 
 This is a circumstance where `.gitignore` files will come in very useful.
 
-`.gitignores` can be placed in any folder within the git repository and can be
+`.gitignore` files can be placed in any folder within the git repository and can be
 used to ignore files that you don't want to track.
 
 - compiled binaries
@@ -132,7 +132,7 @@ The purple nodes are the main branch. This is what will be released.
 
 The green nodes are a branch that implemented a feature.
 
-The blue nodes are a branchof the green nodes.
+The blue nodes are a branch of the green nodes.
 
 The orange nodes branched off of the blue nodes and then merged back in to the
 blue nodes at the end.
@@ -148,7 +148,7 @@ you fix bugs and implement features as well.
 If you accidentally remove all of your code in a commit you're able to undo
 commits (how do you think I know?).
 
-You have touse the `git log` command to pull up the `hash` of a commit and then
+You have to use the `git log` command to pull up the `hash` of a commit and then
 revert to that commit. Below is a screenshot of the logs.
 
 ![git-log-output.png](../assets/imgs/git-log-output.png)
