@@ -1,8 +1,14 @@
+---
+id: LaTeX
+aliases: []
+tags: []
+---
+
 # $\LaTeX$
 
 ## What is $\LaTeX$?
 
-_Note_: The following sections of this parge are direct copies from the
+_Note_: The following sections of this page are direct copies from the
 [LaTeX website](https://www.latex-project.org/about/).
 
 LaTeX, which is pronounced «Lah-tech» or «Lay-tech» (to rhyme with «blech» or
@@ -50,35 +56,35 @@ Or, in English:
 - It was written in September 1994.
 - The document consists of a title followed by the text Hello world!
 
-## LaTeX Features 
-- Typesetting journal articles, technical reports, books, and slide presentations.
-- Control over large documents containing sectioning, cross-references, tables and figures.
+## LaTeX Features
+
+- Typesetting journal articles, technical reports, books, and slide
+  presentations.
+- Control over large documents containing sectioning, cross-references, tables
+  and figures.
 - Typesetting of complex mathematical formulas.
 - Advanced typesetting of mathematics with AMS-LaTeX.
 - Automatic generation of bibliographies and indexes.
 - Multi-lingual typesetting.
 - Using PostScript or Metafont fonts.
 
-
-
 ## How does $\LaTeX$ work?
 
-For the purposes of note-taking, the concept is very simple.
-When using an editor like obsidian, you can include in-line equations by surrounding your equation in dollar signs as shown:
+For the purposes of note-taking, the concept is very simple. When using an
+editor like obsidian, you can include in-line equations by surrounding your
+equation in dollar signs as shown:
 
-```tex 
+```tex
 $F( j \omega ) = \int\limits_{-\infty}^{\infty} f(t) e^{-j \omega t} dt$
 ```
 
-This renders the equation like this:
-$F( j \omega ) = \int\limits_{-\infty}^{\infty} f(t) e^{-j \omega t} dt$
+This renders the equation like this: $F( j \omega ) =
+\int\limits_{-\infty}^{\infty} f(t) e^{-j \omega t} dt$
 
-Surrounding the equation in 2 \$ symbols makes it a full-line equation instead of an in-line equation
+Surrounding the equation in 2 \$ symbols makes it a full-line equation instead
+of an in-line equation
 
 $$F( j \omega ) = \int\limits_{-\infty}^{\infty} f(t) e^{-j \omega t} dt$$
-
-
-
 
 ### Common Symbols that are used in engineering:
 
@@ -92,21 +98,13 @@ $$F( j \omega ) = \int\limits_{-\infty}^{\infty} f(t) e^{-j \omega t} dt$$
 | $\int$                                         | `\int`                                         |
 | $\therefore$                                   | `\therefore`                                   |
 | $\longrightarrow$                              | `\longrightarrow`                              |
-| $\Longrightarrow$                              | `\Longrightarrow`                              | 
+| $\Longrightarrow$                              | `\Longrightarrow`                              |
 | $\text{Text}$                                  | `\text{Text}`                                  |
 | $\begin{bmatrix}1 && 0 \\ 0 && 1\end{bmatrix}$ | `\begin{bmatrix}1 && 0 \\ 0 && 1\end{bmatrix}` |
 | $\frac{a}{b}$                                  | `\frac{a}{b}`                                  |
 
-
-
-
-
-
-
 # Summary
-Now that you know how to do some basic operations using $\LaTeX$, let's see how we can put the power of markdown and $\LaTeX$ together by going to the next [file](./obsidian.md) which talks a bit about obsidian.
 
-
-
-
-
+Now that you know how to do some basic operations using $\LaTeX$, let's see how
+we can put the power of markdown and $\LaTeX$ together by going to the next
+[file](./obsidian.md) which talks a bit about obsidian.

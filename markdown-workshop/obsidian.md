@@ -1,3 +1,9 @@
+---
+id: obsidian
+aliases: []
+tags: []
+---
+
 
 
 # Obsidian
@@ -17,4 +23,6 @@ I use it to take notes in school.
 - Include tables
 - My notes can be synced via GitHub.
 
-[Summary](./summary.md)
+
+
+Let's do a little [workshop activity](./activity.md) now that we know a little bit more about markdown.

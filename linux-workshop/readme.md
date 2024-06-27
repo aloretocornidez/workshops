@@ -1,3 +1,9 @@
+---
+id: readme
+aliases: []
+tags: []
+---
+
 # Linux Workshop
 
 Author: Alan Manuel Loreto Cornídez
@@ -75,8 +81,8 @@ Here's a few reasons for why I use Linux:
   - Web Development
   - Embedded Systems
 
-- Linux offers endless customizability
-- Privacy is much easier to maintain on Linux.
+- Linux offers endless customization
+- Privacy is much easier to maintain on Linux
 - Free-Open Source software
 - Cool software that I use
 
@@ -110,7 +116,7 @@ hard drives)
 Great question, my personal recommendation for most people who are on windows is
 to either
 
-- Begin with an ubuntu Virtual Machine to prepare themselves for dual booting.
+- Begin with an Ubuntu Virtual Machine to prepare themselves for dual booting.
 - Use windows WSL so that they can get the best (and worst) of both operating
   systems.
 
@@ -416,17 +422,11 @@ The last resort should be to make a forum post on a forum of your choice
 Now that you have a simple roadmap, I hope you can utilize Linux, or at the very
 least, understand why it is held in such high regard.
 
-If you want to see ome really cool tricks, you should attend the Bash Workshop
+If you want to see some really cool tricks, you should attend the Bash Workshop
 that will be held in a few weeks. This workshop teaches you a lot of cool tricks
 that are more than just 'here is how commands work'.
 
-As you gain more experience, you'll be able to utilize the the command line a
-lot more and make it more efficient than using your gui application. One
-example: it is literally faster to pull all of my repositories using my terminal
-than it is using the gui application. Because I set up an alias.
-
-
-
-
-
-
+As you gain more experience, you'll be able to utilize the command line a lot
+more and make it more efficient than using your gui application. One example: it
+is literally faster to pull all of my repositories using my terminal than it is
+using the gui application. Because I set up an alias.

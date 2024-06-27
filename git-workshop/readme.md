@@ -1,14 +1,20 @@
+---
+id: readme
+aliases: []
+tags: []
+---
+
 # Git Workshop
 
 Presenter: Alan Manuel Loreto Cornídez
 
-Tentative Presentation Date: February 19th, 5:00 PM
+<!-- Tentative Presentation Date: February 19th, 5:00 PM -->
 
 ## What is Git?
 
 Git is a distributed version control system designed to track changes in source
 code during software development. It allows multiple developers to collaborate
-on a project simultaneously without interfering with each other's work.
+on a project simultaneously without interfering with other people's work.
 
 Git Features:
 
@@ -18,15 +24,15 @@ Git Features:
 - Revision history: Did you delete all of your code by accident? No worries if
   you have a git repository you can recover any previous commit states.
 
-## What is Github?
+## Git vs. GitHub?
 
 Often times, people will ignore or confuse the differences between git and
-Github.
+GitHub.
 
 As we have already established, git is the software that performs version
 control on your repository.
 
-Github is a site the hosts git repositories. Github is not the only site that
+Github is a site the hosts git repositories. GitHub is not the only site that
 hosts git repositories. Here are some other sites that also host git
 repositories:
 
@@ -104,8 +110,8 @@ having to add each individual file).
 
 This is a circumstance where `.gitignore` files will come in very useful.
 
-`.gitignore` files can be placed in any folder within the git repository and can be
-used to ignore files that you don't want to track.
+`.gitignore` files can be placed in any folder within the git repository and can
+be used to ignore files that you don't want to track.
 
 - compiled binaries
 - large files
