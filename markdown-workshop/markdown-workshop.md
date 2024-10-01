@@ -30,10 +30,12 @@ math equations, images, etc.
 ## Platforms that Support Markdown
 
 - Messaging Platforms
+
   - **Discord**
   - Microsoft Teams
 
 - Code-Hosting Platforms
+
   - [Github](https://www.github.com)
   - [Bitbucket](https://www.bitbuket.org)
   - [Gitlab](https://www.gitlab.com)
@@ -138,7 +140,7 @@ git push -u origin main
 
 ````
 Do it like this:
-``` 
+```
 git add .
 git commit -m 'moar code'
 git push -u origin main
@@ -158,7 +160,7 @@ while(true)
 Do it like this:
 
 ````
-```c 
+```c
 while(true)
 {
     printf("i use arch btw");
@@ -168,7 +170,7 @@ while(true)
 
 ## Lists
 
-You can do ordered and unordered lists, with checkmarks as well!
+You can do ordered and unordered lists, with check marks as well!
 
 1. Item 1
    - Sub-Item 1
@@ -198,7 +200,7 @@ You can do ordered and unordered lists, with checkmarks as well!
    - Sub-Item 2
 ```
 
-### 
+###
 
 ## Math Equations!
 
@@ -209,7 +211,7 @@ These are my favorite feature you can use with markdown. It lets me type my
 notes in class pretty easily, though it may annoy all of my classmates :P
 (sorry!)
 
-$$ \mathbb{F}(s) = \int_{-\infty}^{\infty}{f(t) e^{-st} dt} $$
+$$ \mathbb{F}(s) = \int\_{-\infty}^{\infty}{f(t) e^{-st} dt} $$
 
 Where
 
@@ -231,4 +233,5 @@ $$ s \in \mathbb{C}$$
   <img src="https://cdn.myanimelist.net/s/common/uploaded_files/1449565442-799682393c093c4b5a5034dde32bb999.gif" width="200"/>
 
 - And [links!](https://www.youtube.com/watch?v=dQw4w9WgXcQ)
-- You can even redirect people to other files in the repository, [like the next slide in the workshop](./LaTeX.md)
+- You can even redirect people to other files in the repository,
+  [like the next slide in the workshop](./LaTeX.md)

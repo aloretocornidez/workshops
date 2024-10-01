@@ -75,7 +75,7 @@ editor like obsidian, you can include in-line equations by surrounding your
 equation in dollar signs as shown:
 
 ```tex
-$F( j \omega ) = \int\limits_{-\infty}^{\infty} f(t) e^{-j \omega t} dt$
+$F( j \omega ) = \int \limits_{-\infty}^{\infty} f(t) e^{-j \omega t} dt$
 ```
 
 This renders the equation like this: $F( j \omega ) =
