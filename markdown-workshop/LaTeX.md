@@ -78,8 +78,7 @@ equation in dollar signs as shown:
 $F( j \omega ) = \int \limits_{-\infty}^{\infty} f(t) e^{-j \omega t} dt$
 ```
 
-This renders the equation like this: $F( j \omega ) =
-\int\limits_{-\infty}^{\infty} f(t) e^{-j \omega t} dt$
+This renders the equation like this: $F( j \omega ) = \int\limits_{-\infty}^{\infty} f(t) e^{-j \omega t} dt$
 
 Surrounding the equation in 2 \$ symbols makes it a full-line equation instead
 of an in-line equation
