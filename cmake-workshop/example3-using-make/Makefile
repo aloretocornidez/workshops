@@ -10,7 +10,5 @@ clang:
 	@echo -n 'Command: '
 	clang++ -o myprogramclang main.cpp -I /usr/include/opencv4/ -lopencv_highgui -lopencv_imgcodecs -lopencv_core
 
-
-
 .PHONY clean:
 	@rm -f myprogram*

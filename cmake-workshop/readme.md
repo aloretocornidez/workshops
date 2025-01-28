@@ -28,7 +28,7 @@ What do we need to build software in C++?
 - Libraries
 - Compilers
 
-Let's go ahead and start with a simple program in C++:
+Let's go ahead and start with a simple program in C++ **Example 1**:
 
 ```c++
 #include <iostream>
@@ -70,40 +70,14 @@ clang++ -o myprogramClang code/main.cpp
 
 As you can see, we can use two different compilers to compile our code.
 
-What if I create a file that allows me to run a single command that compiles my
-code for me?
-
-On linux/unix operating systems, we can use Makefiles!
-
-Here is a simple Makefile that we can use to compile the same code using
-different compilers.
-
-```
-all: gpp clang
-
-gpp:
-	@echo "Compiling using g++"
-	@echo -n 'Command: '
-	g++ -o myprogramgpp main.cpp
-
-
-clang:
-	@echo "Compiling using clang"
-	@echo -n 'Command: '
-	clang++ -o myprogramclang main.cpp
-
-
-
-.PHONY clean:
-	@rm -f myprogram*
-```
+## Libraries 
 
 Now what if I want to use a library such as OpenCV to open an image?
 
 Now I need to add some arguments to my command to include the library inside of
 my program:
 
-We can use this command:
+We can use this command **Example 2**:
 
 ```bash
 g++ main.cpp -o main -I/usr/include/opencv4 -lopencv_highgui -lopencv_imgcodecs -lopencv_core
@@ -114,15 +88,41 @@ We can also use the same command with clang:
 ```bash
 clang++ main.cpp -o main -I/usr/include/opencv4 -lopencv_highgui -lopencv_imgcodecs -lopencv_core
 ```
+<!-- What if I create a file that allows me to run a single command that compiles my code for me? -->
 
-## Make Compiling Quick
+
+## Using Make
 
 How can I make compiling easy on my computer? I don't want to have to type the
 command every single time I need to compile.
 
+On linux/unix operating systems, we can use Makefiles!
+
 I can use a program called `Make`, this allow me to compile my code using the
-`make` command. I write 1 Makefile that contains the commands needed to compile
-my code and make will run those commands for me.
+`make` command. I write a single Makefile that contains the commands needed to
+compile my code and make will run those commands for me.
+
+Here is a simple Makefile that we can use to compile the same code using
+different compilers.
+
+Here is a sample makefile **Example 3**:
+
+```Makefile
+all: gpp clang
+
+gpp: 
+	@echo "Compiling using g++"
+	@echo -n 'Command: '
+	g++ -o myprogramgpp main.cpp -I /usr/include/opencv4/ -lopencv_highgui -lopencv_imgcodecs -lopencv_core
+
+clang: 
+	@echo "Compiling using clang"
+	@echo -n 'Command: '
+	clang++ -o myprogramclang main.cpp -I /usr/include/opencv4/ -lopencv_highgui -lopencv_imgcodecs -lopencv_core
+
+.PHONY clean:
+	@rm -f myprogram*
+```
 
 Makefiles are extremely powerful!! All Makefiles are is a file that you write
 your needed outputs and the commands to generate those outputs and `make` will
@@ -143,5 +143,9 @@ Now we start to figure out a bit about why we use CMake.
 CMake is a program that generates automated scripts to compile our files for us.
 
 I can use CMake to generate my Makefiles for me.
+
+CMake also generates the files needed by windows to compile my code for me as
+well.
+
 
 
