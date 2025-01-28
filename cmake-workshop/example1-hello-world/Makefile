@@ -1,5 +1,3 @@
-
-
 all: gpp clang
 
 gpp: 

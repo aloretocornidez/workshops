@@ -5,9 +5,9 @@ int main(int argc, char *argv[])
 {
 
   // Print out hello world.
-  std::cout << "Hello World" << std::endl;
+  // std::cout << "Hello World" << std::endl;
 
-  cv::Mat image = cv::imread("./Tux.png");
+  cv::Mat image = cv::imread(argv[1]);
 
   if (!image.data)
   {
