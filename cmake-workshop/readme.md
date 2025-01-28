@@ -15,7 +15,8 @@ workshop meeting.
 
 tl;dr: CMake is a powerful software cross platform build system. It allows you
 compile C++ code across multiple computers that may use different compilation
-tools. You write one file that many developers can use and CMake.
+tools. You write one file that many developers can use and CMake generates the
+proper compatible compilation scripts for the user's computer.
 
 ## Let's talk about how making software.
 
