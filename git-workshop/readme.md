@@ -8,13 +8,15 @@ tags: []
 
 Presenter: Alan Manuel Loreto Cornídez
 
-<!-- Tentative Presentation Date: February 19th, 5:00 PM -->
+<!-- Tentative Presentation Date: February 19th, 2024, 5:00 PM -->
+<!-- Tentative Presentation Date 2: September 16th, 2024, 6:00 PM -->
 
 ## What is Git?
 
-Git is a distributed version control system designed to track changes in source
-code during software development. It allows multiple developers to collaborate
-on a project simultaneously without interfering with other people's work.
+Git is a distributed 'version control system' (VCS) designed to track changes in
+source code during software development. It allows multiple developers to
+collaborate on a project simultaneously without interfering with other people's
+work.
 
 Git Features:
 
@@ -38,7 +40,21 @@ repositories:
 
 - Bitbucket
 - Gitlab
-- Random Servers
+- Random Servers (yes, you can host your own server)
+
+## Why would I want to use `git`?
+
+`git` is an extremely powerful tool that allows you to work with your source
+code much more effectively.
+
+You can:
+
+1. Keep track of your changes you make.
+2. Recover working code if you make a mistake.
+3. Work with other people simultaneously (through the use of branching)
+4. Keep your code stored on a server (in one case, github) and use it as a
+   reference.
+5. Flex on the people that don't know how to use `git`.
 
 ## How can I use `git`?
 
@@ -52,11 +68,18 @@ There are multiple ways to use git.
 ### What do I recommend?
 
 I recommend you begin by using the GitHub desktop app while slowly transitioning
-to using the command line to the point of being comfortable with the CLI. After
-you get comfortable with the CLI you can continue using the desktop app and then
-use the command line when you need to do something more complex.
+to using the command line (CLI) to the point of being comfortable with the CLI.
+After you get comfortable with the CLI you can continue using the desktop app
+and then use the command line when you need to do something more complex.
 
 ## How Does Git Work?
+
+tl;dr: Your code is stored in a folder, inside that folder there is another
+folder (`.git/`) that contains all of the information pertaining to that code
+repository (your current revision, your history of changes, other branches,
+messages, configuration files, etc.). Any time you make changes, you 'commit' to
+history and then upload those changes onto the server (Github) and then other
+people can download it.
 
 ### git repo information is stored within the `.git/` folder
 
@@ -88,12 +111,15 @@ Let's talk about the states of a file.
 
 1. Untracked files: These are files that are in the same folder as your repo but
    are **not** being tracked by git. Usually, they are newly created files.
-2. Unmodified files: These files **are** being tracked by git. Unmodified means
-   that the file is not different since you last committed it.
+2. Tracked (but unmodified) files: These files **are** being tracked by git.
+   unmodified means that the file is not different since you last committed it.
 3. Modified files: These files have been modified since your last commit but
    have not been staged for your next commit.
 4. Staged files: These files have been modified and are staged for commit. This
    means that the next time you commit, you will store this file's state.
+
+This sounds a lot more complicated than it really is, it's easier to show you
+than tell you, so lets go ahead and do a quick demo.
 
 ## Let's Demo This Now
 
@@ -115,7 +141,6 @@ be used to ignore files that you don't want to track.
 
 - compiled binaries
 - large files
--
 
 Here is what is in my `.gitignore` file for this repository:
 

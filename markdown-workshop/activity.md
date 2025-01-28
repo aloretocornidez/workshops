@@ -32,14 +32,13 @@ Create a `README.md` for your GitHub profile!
 3. Place a `README.md` file in the `root` directory of the repository.
 4. Modify your `README.md` file and add the things!
 
-## Example Profile ReadMe
+## Example Profile readme
 
 Here's my
 [README.md](https://github.com/aloretocornidez/aloretocornidez/blob/main/README.md?plain=1)
 for my [profile](https://github.com/aloretocornidez).
 
-Feel free to 'reference' (steal) as much as you'd like! (It's open source after
-all :shrug:)
+Feel free to 'reference' (steal) as much as you'd like!
 
 After you finish working on your GitHub `README.md` you can continue to read
 about $\LaTeX$ [here](./LaTeX.md).
