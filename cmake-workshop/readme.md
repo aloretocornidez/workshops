@@ -98,8 +98,6 @@ clang:
 	@rm -f myprogram*
 ```
 
-
-
 Now what if I want to use a library such as OpenCV to open an image?
 
 Now I need to add some arguments to my command to include the library inside of
@@ -117,8 +115,33 @@ We can also use the same command with clang:
 clang++ main.cpp -o main -I/usr/include/opencv4 -lopencv_highgui -lopencv_imgcodecs -lopencv_core
 ```
 
+## Make Compiling Quick
+
+How can I make compiling easy on my computer? I don't want to have to type the
+command every single time I need to compile.
+
+I can use a program called `Make`, this allow me to compile my code using the
+`make` command. I write 1 Makefile that contains the commands needed to compile
+my code and make will run those commands for me.
+
+Makefiles are extremely powerful!! All Makefiles are is a file that you write
+your needed outputs and the commands to generate those outputs and `make` will
+build your needed outputs for you. (You should really learn about make)
+
 ## How would I build this on windows?
 
-I don't know. I would need to learn how to work with their compilers and I don't
-have time to do that because I'm on a deadline. So what do I do? 
+Well, it turns out that Make is not a program that works on windows. It's a
+linux/unix tool. We would need to run other commands that allow us to compile
+our code.
+
+So what can I do?
+
+# This is CMake
+
+Now we start to figure out a bit about why we use CMake.
+
+CMake is a program that generates automated scripts to compile our files for us.
+
+I can use CMake to generate my Makefiles for me.
+
 
