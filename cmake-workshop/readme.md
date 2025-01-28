@@ -28,7 +28,9 @@ What do we need to build software in C++?
 - Libraries
 - Compilers
 
-Let's go ahead and start with a simple program in C++ **Example 1**:
+Let's go ahead and start with a simple program in C++
+
+**Example 1**
 
 ```c++
 #include <iostream>
@@ -70,14 +72,16 @@ clang++ -o myprogramClang code/main.cpp
 
 As you can see, we can use two different compilers to compile our code.
 
-## Libraries 
+## Libraries
 
 Now what if I want to use a library such as OpenCV to open an image?
 
 Now I need to add some arguments to my command to include the library inside of
 my program:
 
-We can use this command **Example 2**:
+We can use this command
+
+**Example 2**
 
 ```bash
 g++ main.cpp -o main -I/usr/include/opencv4 -lopencv_highgui -lopencv_imgcodecs -lopencv_core
@@ -88,8 +92,8 @@ We can also use the same command with clang:
 ```bash
 clang++ main.cpp -o main -I/usr/include/opencv4 -lopencv_highgui -lopencv_imgcodecs -lopencv_core
 ```
-<!-- What if I create a file that allows me to run a single command that compiles my code for me? -->
 
+<!-- What if I create a file that allows me to run a single command that compiles my code for me? -->
 
 ## Using Make
 
@@ -105,17 +109,19 @@ compile my code and make will run those commands for me.
 Here is a simple Makefile that we can use to compile the same code using
 different compilers.
 
-Here is a sample makefile **Example 3**:
+Here is a sample makefile
+
+**Example 3**
 
 ```Makefile
 all: gpp clang
 
-gpp: 
+gpp:
 	@echo "Compiling using g++"
 	@echo -n 'Command: '
 	g++ -o myprogramgpp main.cpp -I /usr/include/opencv4/ -lopencv_highgui -lopencv_imgcodecs -lopencv_core
 
-clang: 
+clang:
 	@echo "Compiling using clang"
 	@echo -n 'Command: '
 	clang++ -o myprogramclang main.cpp -I /usr/include/opencv4/ -lopencv_highgui -lopencv_imgcodecs -lopencv_core
@@ -146,6 +152,3 @@ I can use CMake to generate my Makefiles for me.
 
 CMake also generates the files needed by windows to compile my code for me as
 well.
-
-
-
