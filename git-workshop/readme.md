@@ -109,13 +109,13 @@ Let's talk about the states of a file.
 
 ![There are 4 different states for a file.](../assets/imgs/git-file-tracking.png)
 
-1. Untracked files: These are files that are in the same folder as your repo but
+1. **Untracked** files: These are files that are in the same folder as your repo but
    are **not** being tracked by git. Usually, they are newly created files.
-2. Tracked (but unmodified) files: These files **are** being tracked by git.
+2. **Tracked** (but unmodified) files: These files **are** being tracked by git.
    unmodified means that the file is not different since you last committed it.
-3. Modified files: These files have been modified since your last commit but
+3. **Modified** files: These files have been modified since your last commit but
    have not been staged for your next commit.
-4. Staged files: These files have been modified and are staged for commit. This
+4. **Staged** files: These files have been modified and are staged for commit. This
    means that the next time you commit, you will store this file's state.
 
 This sounds a lot more complicated than it really is, it's easier to show you
