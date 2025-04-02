@@ -1,5 +1,5 @@
 # Set the minimum version of CMake that is required.
-cmake_minimum_required(VERSION 3.2)
+cmake_minimum_required(VERSION 3.5)
 
 # Set build variables, such as the build type, the c++ standard, and build requirements.
 set (CMAKE_BUILD_TYPE Debug)
