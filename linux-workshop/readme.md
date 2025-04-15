@@ -9,7 +9,7 @@ tags: []
 Author: Alan Manuel Loreto Cornídez
 
 Purpose: Linux is a powerful tool that can be used to change and optimize your
-workflow to better fit your needs, what can you do to get started?
+workflow to better fit your needs. By learning to leverage command line tools that are commonly found in linux, you can complete your work more efficiently with the added benefits of privacy and security.
 
 ## What Is Linux?
 
@@ -51,27 +51,41 @@ computer hardware and the processes running on the computer. The kernel is the
 part of the operating system that properly allocates hardware resources to run
 software.
 
-**Shell**: The shell is the human interface with the operating system's. By
+**Shell**: The shell is the human interface with the operating system. By
 using a shell we are able to write human readable commands that let us tell the
-operating system to run software.
+operating system to run software. That way, we can tell the computer to run a command with certain arguments.
+
+The most common shell you'll find on Linux is bash. There are many useful features of bash that allow you to do many cool things like 'piping', 'redirection', 'parameter expansion' among many other features. There are **extremely powerful**.
 
 **Command Line**: The command line is an interface used to execute shell
 commands. Commands can be executed using a graphical user interface (GUI) or
-through the command line (using a terminal emulator).
+through the command line (using a terminal emulator). When we open a shell in our system, we are presented with a command line.
 
-**GNU Core Utils**: The GNU(pronounced guh-new) core utils is a collection of
-software tools that allow us to useful commands through the command line. If you
-want to 'level up' your 'Linux' prowess, it would be wise to lean how to utilize
-these tools. A list of many useful commands in addition to a brief description
+**GNU Core Utils**: The GNU core utils is a collection of
+software tools that allow us to useful commands through the command line.
+Learning what core utils exist and how to use them will help you better utilize your command line tools. A list of many useful commands in addition to a brief description
 can be found at
 [wikipedia.org/wiki/List_of_GNU_Core_Utilities_commands](https://en.wikipedia.org/wiki/List_of_GNU_Core_Utilities_commands).
 
-## Why should I use Linux?
+Some of my favorites are:
 
-Linux isn't for everyone, it's not the perfect platform for every application,
-however, Linux excels at what it is good at.
+- ls (lists directory contents)
+- cd (changes your current directory)
+- mkdir (make a directory)
+- touch (open, and close a file / create a file)
+- cat (display contents of files to the standard output)
+- less (read contents of files with an interactive pager)
+- grep (filter lines of input and only output things that match a pattern that you specify)
+- find (find files and file paths that contain a specific pattern that you sepcify)
+- sed (edits inputs and outputs them with whatever expressions you specify)
+- awk (a language that can be used for many useful quick outputs)
+- head/tail (display the first/last part of the input)
 
-Here's a few reasons for why I use Linux:
+## Why Would I use Linux?
+
+Linux is not for everyone. It is a very powerful tool, but it has it's drawbacks.
+
+Linux is particularly powerful for the following reasons:
 
 - Software Development
 
@@ -81,21 +95,27 @@ Here's a few reasons for why I use Linux:
   - Web Development
   - Embedded Systems
 
-- Linux offers endless customization
+- Automation and scripting is relatively easy.
+- Linux offers endless customization and personalization
 - Privacy is much easier to maintain on Linux
 - Free-Open Source software
 - Cool software that I use
 
-Who is Linux not for?
+### Who is Linux not for?
 
 Linux does not work well for people who are bound certain software.
 
-- Adobe Design Suite
-- Gaming (Though, this situation is much better than before).
+- Graphic Design Software, e.g. Adobe Design Suite
+- Gaming (Though, this situation is much better than before). (circa 2024)
+  - Since the release of the Steam Deck the situation is leagues better.
 
 ## How Can I get Started?
 
 There are multiple options for getting started with Linux:
+
+- Process Virtual Machines
+- System Virtual Machines
+- Dual Booting/"Bare Metal" Installation
 
 **Process Virtual Machines** (An operating system within your operating system)
 
@@ -116,12 +136,11 @@ hard drives)
 Great question, my personal recommendation for most people who are on windows is
 to either
 
-- Begin with an Ubuntu Virtual Machine to prepare themselves for dual booting.
-- Use windows WSL so that they can get the best (and worst) of both operating
-  systems.
+- Begin with an Ubuntu Virtual Machine and eventually begin dual booting if your application requires it.
+- Use windows WSL so you can remain on a system you're comfortable with while still recieving many of the benefits of using Linux (because you literally have two operating systems running while your computer is on).
 
 If you are on MacOS, you basically already have what most people think of when
-they imagine what Linux is.
+they imagine what Linux is. A lot of the command line tools that make Linux useful are present in their own form on Mac.
 
 Let's take this time to install WSL or our virtual machine.
 
@@ -148,21 +167,13 @@ I also recommend this terminal emulator:
 
 > How do I install applications?
 
-Application in Linux are installed using something called a 'Package Manager',
-the specific package manager that you use will change depending on the
-distribution you are using. If you are on Ubuntu, your package manager is `apt`,
-if you are on other distributions, it may be `yum` or `dnf`.
+Applications are installed using something called a 'Package Manager'. The package manager that you use will is dependent on your chosen linux distribution. If you are on Ubuntu, your package manager is `apt`, if you are on other distributions, it may be `yum` or `dnf`.
 
-In addition to the package manager, there are other stores that are available,
-such as the `snap` store or `Flathub`, imagine that these are kind of like
-installing applications through `Steam` or another game launcher.
+In addition to the package manager that installs binary pieces of software (packages), there are other stores that are available, such as the `snap` store or `Flathub`, these install general packages that work regardless of which linux distribution you are using.
 
 ### Installing Software
 
-Let's use some software(though, we technically already have, just without using
-a gui, remember, all software is just running commands like this. Instead of you
-typing it into the terminal, the GUI changes the command that is run and then
-runs it when you click 'ok')
+Let's use some software(though, we technically already have, just without using a gui, remember, all software is just running commands like this. Instead of you typing it into the terminal, the GUI changes the command that is run and then runs it when you click 'ok')
 
 Installing software on Linux is as simple as running a command such as:
 
@@ -182,7 +193,7 @@ or
 flatpak install LibreWolf # installs the LibreWolf browser.
 ```
 
-You'll notice that the commands look fairly similar, you'll quickly learn that
+You'll notice that the commands look fairly similar, you'll quickly learn that this
 is usually the case with a lot of apps that you try to use the command line.
 They have a very similar command structure.
 
@@ -195,7 +206,17 @@ them, you could replace `install` with `search` for all three of them.
 snap search spotify # searches the for the spotify app and returns the information for it.
 ```
 
-### `sudo` Commands
+Other pieces of software will use different forms of interaction. For example, my package manager, `pacman` uses dashes to specify the actions and arugments.
+
+```bash
+pacman -Syu python # updates the computer and installs python
+```
+
+```bash
+pacman -Qq vim ## searches the computer to see if vim is installed and displayes a shortened name of it.
+```
+
+### `sudo` Commands | Root Permissions
 
 As some of you may have noticed when trying to install something, you may not
 have permissions to do so. That is because installing software on Linux requires
