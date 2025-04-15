@@ -1,13 +1,11 @@
-// #include "opencv2/highgui.hpp"
+#include "opencv2/highgui.hpp"
 // #include <opencv2/opencv.hpp>
-// #include <iostream>
-// #include <string>
+#include <iostream>
+#include <string>
 
 int main(int argc, char *argv[])
 {
 
-  // Print out hello world.
-  // std::cout << "Hello World" << std::endl;
   std::string imageName;
 
   if (argc > 1)
@@ -17,7 +15,6 @@ int main(int argc, char *argv[])
   else
   {
     imageName = "/home/alan-manuel/Pictures/IMG_2969.jpg";
-
     std::cout << "No image path specified, using: " << imageName << std::endl;
   };
 
