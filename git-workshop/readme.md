@@ -179,10 +179,23 @@ you fix bugs and implement features as well.
 If you accidentally remove all of your code in a commit you're able to undo
 commits (how do you think I know?).
 
-You have to use the `git log` command to pull up the `hash` of a commit and then
-revert to that commit. Below is a screenshot of the logs.
+In order to revert the changes in a specific commit, you need to be able to identify the commit. Every commit in a repository is assigned a commit ID as a hash string; they can be referenced by using the `git log` command within your repository.
+
+Below is a screenshot of the logs.
 
 ![git-log-output.png](../assets/imgs/git-log-output.png)
+
+You can undo (revert) the changes done in a certain commit by typing the appending the commit ID (hash) to the `git revert` command. 
+
+```bash
+# we can usually shorten the commit id to the first few characters in the string
+# to undo commit 30312bd1190be2dae0f49fccc7d207288b6c4da5 we can run the following command:
+git revert 30312bd
+```
+
+Reverting a commit creates another commit that states that changes were reverted (remember, Git emphasizaes the importance of a repository's history.
+
+**Note:** There are ways to modify the history of a repository by using `git squash` or by using the `git rebase` features; however, this is beyond the scope of this workshop.
 
 # TLDR
 
@@ -204,4 +217,28 @@ Usually workflows go like this:
 5. If conflicts exists with your code and the server, then fix the conflicts
    (merge conflicts), then commit(again) the fixes and push the code.
 
-Have fun using git.
+```bash
+# downloads a new repository from github if you do not have it on your local machine
+git clone git@github.com:aloretocornidez/workshops.git
+
+# downloads repository updates (also known as a fetch) from the origin (in this case, github)
+# and applies any downloaded commits on your local machine
+git pull
+
+# you work on your code at this point
+
+# stages the files that you want to commit (the . indicates all files in our current working directory)
+git add .
+
+# this command shows you the status of the repository
+git status
+
+# commit the changes in the staged files
+# the -m flag is used to enter the commit message on the command line instead of using a text editor
+git commit -m 'i made changes'
+
+# upload commits on your local computer to your github repository
+git push
+```
+
+I highly suggest reading the ![giteveryday documentation](https://git-scm.com/docs/giteveryday) for a brief introduction to many of the commands that you will see regulary when working with git.
