@@ -241,4 +241,4 @@ git commit -m 'i made changes'
 git push
 ```
 
-I highly suggest reading the ![giteveryday documentation](https://git-scm.com/docs/giteveryday) for a brief introduction to many of the commands that you will see regulary when working with git.
+I highly suggest reading the [giteveryday documentation](git-scm.com/docs/giteveryday) for a brief introduction to many of the commands that you will see regulary when working with git.
