@@ -237,7 +237,7 @@ git status
 # the -m flag is used to enter the commit message on the command line instead of using a text editor
 git commit -m 'i made changes'
 
-# upload commits on your local computer to your github repository
+# upload commits from your local computer to your github repository
 git push
 ```
 
