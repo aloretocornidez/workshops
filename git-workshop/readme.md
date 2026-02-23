@@ -10,15 +10,17 @@ Presenter: Alan Manuel Loreto Cornídez
 
 <!-- Tentative Presentation Date: February 19th, 2024, 5:00 PM -->
 <!-- Tentative Presentation Date 2: September 16th, 2024, 6:00 PM -->
+<!-- Tentative Presentation Date 3: November 10th, 2025, 6:00 PM -->
+<!-- Tentative Presentation Date 4: March 2nd, 2025, 6:00 PM -->
 
 ## What is Git?
 
-Git is a distributed 'version control system' (VCS) designed to track changes in
+Git is a distributed 'version control system' (VCS) tool used to track changes in
 source code during software development. It allows multiple developers to
 collaborate on a project simultaneously without interfering with other people's
 work.
 
-Git Features:
+Git Strengths:
 
 - Distributed: Developers each have a copy of the code on their own systems.
 - Branching/Merging: Developers can implement features and bug fixes on without
@@ -26,15 +28,16 @@ Git Features:
 - Revision history: Did you delete all of your code by accident? No worries if
   you have a git repository you can recover any previous commit states.
 
+
 ## Git vs. GitHub?
 
 Often times, people will ignore or confuse the differences between git and
 GitHub.
 
-As we have already established, git is the software that performs version
-control on your repository.
+As we have already established, **git is the software that performs version
+control on your repository.**
 
-Github is a site the hosts git repositories. GitHub is not the only site that
+**Github is a site the hosts git repositories.** GitHub is not the only site that
 hosts git repositories. Here are some other sites that also host git
 repositories:
 
